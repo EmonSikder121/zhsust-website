@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSE Dept.</title>
+        <link rel="stylesheet" href="css/cse.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+        /> 
+    </head>
+<body>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html"><h4>ZHSUST</h4></a>
+            <ul class="nav_manu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#categories">Dept.</a></li>
+                <li><a href="ll/index.php">Library</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://forms.gle/MQNk4SZxtRNnEQ5t8" target="_blank">Registration</a></li>
+                
+            </ul>
+            <button id="open-menu-btm"> <i class="uil uil-list-ul"></i> </button>
+            <button id="close-menu-btm"> <i class="uil uil-multiply"></i> </button>
+        </div>
+    </nav>
+
+
+
+    <Section>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1>Computer science and Engineering</h1>
+                <p>
+                    The mission of Z. H. Sikder University of Science & Technology is to develop knowledge and skills of the students so that they can undertake responsibility as young professionals for imparting leadership in their respective fields.
+                </p> 
+                
+                <!-- <a href="about.html" class="btn btn-primary">About US</a> -->
+            </div>
+
+            <div class="header_right">
+                <div class="header_right-img">
+                    <img src="images/Computer.png" alt="" width="100%" height="100%">
+                </div>
+            </div>
+        </div>
+    </Section>
+
+
+
+    <section class="container testimonials_Container swiper mySwiper">
+        <h2>Teachers of Department</h2>
+        <div class="swiper-wrapper">
+
+            <article class="testimonial swiper-slide">
+                <div class="avater">
+                    <img src="images/Md Mahafujur Rahaman .jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h3>Md Mahafujur Rahaman </h3>
+                    <small>Dept. Chairman</small>
+                </div>
+
+                <div class="testimonial_body">
+                    <p>Zainul Haque Sikder was a great Freedom fighter commander; he actively took part in the liberation war in the year 1971. After a decade of work in nation building process, he expanded his business in USA in 1982. His outstanding leadership quality, firm determination, missionand vision.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avater">
+                    <img src="images/Afsar uddin sir.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h3>Muhammad Afsar Uddin </h3>
+                    <small>Assistant Professor</small>
+                </div>
+
+                <div class="testimonial_body">
+                    <p>Zainul Haque Sikder was a great Freedom fighter commander; he actively took part in the liberation war in the year 1971. After a decade of work in nation building process, he expanded his business in USA in 1982. His outstanding leadership quality, firm determination, missionand vision.</p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avater">
+                    <img src="images/Mohin Raza .jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h3>Mohin Raza</h3>
+                    <small>lecturer</small>
+                </div>
+
+                <div class="testimonial_body">
+                    <p>Zainul Haque Sikder was a great Freedom fighter commander; he actively took part in the liberation war in the year 1971. After a decade of work in nation building process, he expanded his business in USA in 1982. His outstanding leadership quality, firm determination, missionand vision.</p>
+                </div>
+            </article>
+
+
+            <article class="testimonial swiper-slide">
+                <div class="avater">
+                    <img src="images/Kamrul Hasan Tuhin .jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h3>Kamrul Hasan Tuhin </h3>
+                    <small>lecturer</small>
+                </div>
+
+                <div class="testimonial_body">
+                    <p>Zainul Haque Sikder was a great Freedom fighter commander; he actively took part in the liberation war in the year 1971. After a decade of work in nation building process, he expanded his business in USA in 1982. His outstanding leadership quality, firm determination, missionand vision.</p>
+                </div>
+            </article>
+
+
+
+            <article class="testimonial swiper-slide">
+                <div class="avater">
+                    <img src="images/Tanvir Hasan Monir.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h3>Tanvir Hasan Monir</h3>
+                    <small>lecturer </small>
+                </div>
+
+                <div class="testimonial_body">
+                    <p>Zainul Haque Sikder was a great Freedom fighter commander; he actively took part in the liberation war in the year 1971. After a decade of work in nation building process, he expanded his business in USA in 1982. His outstanding leadership quality, firm determination, missionand vision.</p>
+                </div>
+            </article>
+
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+    </section>
+
+
+
+
+
+
+
+
+
+    
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints:{
+            600:{
+                slidesPerView :2
+            }
+          }
+        });
+      </script>
+
+</body>
+</html>
